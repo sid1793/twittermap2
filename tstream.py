@@ -11,11 +11,11 @@ mongocon = MongoClient()
 db = mongocon.tstream
 col = db.tweets_tail
 
-consumer_key = 'Ugcq8yanCZl1stpLIfl5tFMcK'
-consumer_secret = 'Kxk1MhwnYmwiv6ivThNlHsYBFkIXrxToWSmpYcsiPdVc7MiVqB'
+consumer_key = '###############'
+consumer_secret = '################'
 
-access_token_key = '2242557926-PKfEEvr7gwCRjThG2kL1mU1eFRarXfRgfQj4Sqx'
-access_token_secret = 'BM1vQ0DFkaR4nZdc9GE1HsAROERbG1jYuqkYfGcPOnxT0'
+access_token_key = '###################'
+access_token_secret = '#####################'
 
 auth1 = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth1.set_access_token(access_token_key, access_token_secret)
